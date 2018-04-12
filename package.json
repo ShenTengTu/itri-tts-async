@@ -12,8 +12,12 @@
     "url": "git+https://github.com/ShenTengTu/itri-tts-async.git"
   },
   "keywords": [
-    "e-invoice",
-    "taiwan-electronic-receipt"
+    "tts",
+    "itri",
+    "itri-tts",
+    "text-to-speech",
+    "speech",
+    "async"
   ],
   "author": "ShenTengTu",
   "license": "MIT",
