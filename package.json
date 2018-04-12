@@ -5,7 +5,7 @@
   "main": "src/ITRITTS.js",
   "types": "src/ITRITTS.d.ts",
   "scripts": {
-    "doc":"jsdoc -c conf.json"
+    "doc": "jsdoc -c conf.json"
   },
   "repository": {
     "type": "git",

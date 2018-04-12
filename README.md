@@ -12,6 +12,11 @@ When TTS converting success, you can browse the [Synthetic history](http://tts.i
 >
 > 當TTS轉換成功時，您可以在官方網站瀏覽[合成歷史記錄](http://tts.itri.org.tw/index.php)
 
+## install
+```
+npm i itri-tts-async
+```
+
 ## Reference
 - [ITRI TTS Web service API](http://tts.itri.org.tw/development/web_service_api.php)
 
@@ -24,7 +29,7 @@ All Method are `async` function.You can use `Promise.prototype.then()`, or use `
 Fist you must use your account to create a Promise to request SOAP Client then passing `TTSClient` object :
 ```js
 require('dotenv').config()
-const {ITRITTS} = require('./src/ITRITTS');
+const {ITRITTS} = require('itri-tts-async');
 
 //Return Promise
 let tts = ITRITTS.create(process.env.Account,process.env.Password)
