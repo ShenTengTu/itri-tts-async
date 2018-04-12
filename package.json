@@ -1,0 +1,33 @@
+{
+  "name": "itri-tts-async",
+  "version": "1.0.0",
+  "description": "This tool let you use Node.js to operate ITRI TTS Web service.",
+  "main": "src/ITRITTS.js",
+  "types": "src/ITRITTS.d.ts",
+  "scripts": {
+    "doc":"jsdoc -c conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenTengTu/itri-tts-async.git"
+  },
+  "keywords": [
+    "e-invoice",
+    "taiwan-electronic-receipt"
+  ],
+  "author": "ShenTengTu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShenTengTu/itri-tts-async/issues"
+  },
+  "homepage": "https://github.com/ShenTengTu/itri-tts-async#readme",
+  "dependencies": {
+    "soap": "^0.24.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  }
+}
