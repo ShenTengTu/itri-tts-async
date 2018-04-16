@@ -1,7 +1,7 @@
 [![npm version](https://badge.fury.io/js/itri-tts-async.svg)](https://badge.fury.io/js/itri-tts-async)
 
 # ITRI TTS async for Node.js
-This tool let you use Node.js to operate [ITRI TTS Web service](http://tts.itri.org.tw/index.php).You muse register a account of the service before using this tool.
+This tool let you use Node.js to operate [ITRI TTS Web service](http://tts.itri.org.tw/index.php).You must register a account of the service before using this tool.
 
 The service uses the UTF-8 format and Simple Object Access Protocol (SOAP), and provides a synthetic audio file for downloading.
 
@@ -64,7 +64,7 @@ async function main () {
 }
 ```
 
-If `TTSClient.resultCode` is 0 (Success), use `TTSClient.GetConvertStatus()` method to get `TTSStatus` object :
+If `TTSResult.resultCode` is 0 (Success), use `TTSResult.GetConvertStatus()` method to get `TTSStatus` object :
 ```js
 ...
 ...
